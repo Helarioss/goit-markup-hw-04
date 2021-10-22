@@ -261,12 +261,13 @@ img {
 
 .footer-container {
   display: flex;
+  align-items: baseline;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer-left {
   margin-right: 70px;
-  padding-top: 60px;
-  padding-bottom: 60px;
 }
 
 .footer-logo {
@@ -293,11 +294,6 @@ img {
 
 .address-link {
   color: var(--fourth-color);
-}
-
-.footer-invite {
-  padding-top: 72px;
-  padding-bottom: 60px;
 }
 
 .invite-title {
@@ -379,18 +375,17 @@ img {
 }
 
 .features-item {
-  flex-basis: calc(100% / 4 - var(--list-gap));
+  flex-basis: 270px;
   margin-right: var(--list-gap);
   margin-bottom: var(--list-gap);
 }
 
 .thumb {
-  /* display: flex;
+  display: flex;
+  height: 120px;
   justify-content: center;
   align-items: center;
-  height: 120px; */
 
-  padding: 25px 100px;
   margin-bottom: 30px;
 
   background-color: #f5f4fa;
@@ -495,13 +490,18 @@ img {
 }
 
 .clients-item {
+  height: 92px;
+  flex-basis: 170px;
   margin-right: var(--list-gap);
   margin-bottom: var(--list-gap);
 }
 
 .clients-link {
-  display: block;
-  padding: 15px 31px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   color: #afb1b8;
   border: 1px solid #afb1b8;
